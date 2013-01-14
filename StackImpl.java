@@ -3,7 +3,7 @@ public class StackImpl<N extends Number> implements Stack<N> {
 	
 	public void push(N num){
 		if(base == null) {
-			StackNode<N> newBase = new StackNode(num);
+			StackNode<N> newBase = new StackNode(num);  // Can't do this. Why not? What to do instead?
 			base = newBase;
 			return;
 		}
