@@ -6,5 +6,5 @@ public class StackNode<N extends Number> {
 	}
 	
 	public N value;
-	public StackNode next;
+	public StackNode<N> next;
 }
